@@ -37,6 +37,42 @@
 			"collection_id": "1b748974-cf65-e136-c242-c251da3f3687"
 		},
 		{
+			"id": "009a61f0-b54a-3cbd-f916-1c299425cda5",
+			"name": "Item group",
+			"description": "",
+			"write": true,
+			"order": [
+				"f6dc6505-0a10-ceab-923e-037f62cec97a",
+				"f2572f64-f7a4-4d81-d78f-cec4ab854a08",
+				"44378a83-690e-1e1f-8839-26c738fc6ef3",
+				"5a69aafa-ec4b-3943-2dcc-856915b78356",
+				"304746ee-9b8c-31ab-4445-415003285d28"
+			],
+			"collection": "1b748974-cf65-e136-c242-c251da3f3687",
+			"owner": "30981",
+			"collection_name": "express-wrapper-seed",
+			"collection_owner": "30981",
+			"collection_id": "1b748974-cf65-e136-c242-c251da3f3687"
+		},
+		{
+			"id": "3ad44811-ad7d-cd89-f698-bddbb9f1ffc9",
+			"name": "Item",
+			"description": "",
+			"write": true,
+			"order": [
+				"c78eb4c5-c18c-a3e3-b2c9-f5746107de89",
+				"4fbcda46-0403-c757-727c-501f06d129d9",
+				"75ae3805-9086-ccfd-6a78-c7f5069068e3",
+				"b722325f-d134-2a33-4d78-252c1638e64a",
+				"bfa4359e-729d-3c36-c2bc-2558516314d0"
+			],
+			"collection": "1b748974-cf65-e136-c242-c251da3f3687",
+			"owner": "30981",
+			"collection_name": "express-wrapper-seed",
+			"collection_owner": "30981",
+			"collection_id": "1b748974-cf65-e136-c242-c251da3f3687"
+		},
+		{
 			"id": "940d3a96-592f-3c50-e2e9-46b51e33ff5e",
 			"name": "Person",
 			"description": "",
@@ -86,6 +122,40 @@
 			"collectionRequestId": "1fbe9f79-a4b9-895d-a147-dc4c9d06592f"
 		},
 		{
+			"id": "304746ee-9b8c-31ab-4445-415003285d28",
+			"headers": "",
+			"url": "http://localhost:3000/api/item-group/1/",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "DELETE",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"data": [
+				{
+					"key": "name",
+					"value": "sd",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Todos los partidos políticos",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Delete item group",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1438385524338,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "009a61f0-b54a-3cbd-f916-1c299425cda5"
+		},
+		{
 			"id": "3adb44c8-4e21-ab1a-b6aa-281ea32542ef",
 			"headers": "",
 			"url": "http://localhost:3000/api/person/1",
@@ -133,6 +203,40 @@
 			"description": "",
 			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
 			"responses": []
+		},
+		{
+			"id": "44378a83-690e-1e1f-8839-26c738fc6ef3",
+			"headers": "",
+			"url": "http://localhost:3000/api/item-group/",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"data": [
+				{
+					"key": "name",
+					"value": "Partidos politicos",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Todos los partidos políticos",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Create item group",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1438384934826,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "009a61f0-b54a-3cbd-f916-1c299425cda5"
 		},
 		{
 			"id": "47f3629d-6141-ab0f-b533-fcf9fad7d7fa",
@@ -199,6 +303,59 @@
 			"folder": "940d3a96-592f-3c50-e2e9-46b51e33ff5e",
 			"isFromCollection": true,
 			"collectionRequestId": "4c6ad73b-b25f-da08-1082-dfd8435aca41"
+		},
+		{
+			"id": "4fbcda46-0403-c757-727c-501f06d129d9",
+			"headers": "",
+			"url": "http://localhost:3000/api/item/1/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1438446452266,
+			"name": "Get item data",
+			"description": "",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"responses": []
+		},
+		{
+			"id": "5a69aafa-ec4b-3943-2dcc-856915b78356",
+			"headers": "",
+			"url": "http://localhost:3000/api/item-group/1/",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "PUT",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"data": [
+				{
+					"key": "name",
+					"value": "sd",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Todos los partidos políticos",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Update item group",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1438385426624,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "009a61f0-b54a-3cbd-f916-1c299425cda5"
 		},
 		{
 			"id": "67508945-f612-cd7f-4a44-b9c1ab5cfca2",
@@ -271,6 +428,41 @@
 			"collectionRequestId": "6b91f167-01d9-63a8-c2b2-6fe62e6465c1"
 		},
 		{
+			"id": "75ae3805-9086-ccfd-6a78-c7f5069068e3",
+			"headers": "",
+			"url": "http://localhost:3000/api/item-group/1/item/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "APRA",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Todos los partidos políticos",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1438460155132,
+			"name": "Create item inside group",
+			"description": "",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"responses": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"folder": "3ad44811-ad7d-cd89-f698-bddbb9f1ffc9"
+		},
+		{
 			"id": "87fc93ab-5ae3-482a-970d-8970d7ae6693",
 			"headers": "",
 			"url": "http://localhost:3000/api/geozone/",
@@ -292,25 +484,24 @@
 		{
 			"id": "a53330cc-ed1b-5106-b5cf-cf3ca5cc3eab",
 			"headers": "",
-			"url": "http://localhost:3000/api/me",
-			"pathVariables": {},
+			"url": "http://localhost:3000/api/me/",
 			"preRequestScript": "",
+			"pathVariables": {},
 			"method": "GET",
-			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
 			"data": [],
 			"dataMode": "params",
-			"name": "Me",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1438274008875,
 			"version": 2,
-			"responses": [],
 			"tests": "",
 			"currentHelper": "normal",
-			"helperAttributes": {},
+			"helperAttributes": "{}",
+			"time": 1438384715692,
+			"name": "Me",
+			"description": "",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"responses": [],
 			"folder": "940d3a96-592f-3c50-e2e9-46b51e33ff5e",
-			"isFromCollection": true,
-			"collectionRequestId": "a53330cc-ed1b-5106-b5cf-cf3ca5cc3eab"
+			"rawModeData": null,
+			"descriptionFormat": "html"
 		},
 		{
 			"id": "a6de786c-7450-fb81-776d-640705dd0e7b",
@@ -347,6 +538,95 @@
 			"folder": "a39939dd-77f8-6c7b-5fdb-2ff2e05b564a",
 			"isFromCollection": true,
 			"collectionRequestId": "a6de786c-7450-fb81-776d-640705dd0e7b"
+		},
+		{
+			"id": "b722325f-d134-2a33-4d78-252c1638e64a",
+			"headers": "",
+			"url": "http://localhost:3000/api/item/1/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "PPK",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Todos los partidos políticos",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1438460686490,
+			"name": "Update item",
+			"description": "",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"responses": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"folder": "3ad44811-ad7d-cd89-f698-bddbb9f1ffc9"
+		},
+		{
+			"id": "bfa4359e-729d-3c36-c2bc-2558516314d0",
+			"headers": "",
+			"url": "http://localhost:3000/api/item/1/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "name",
+					"value": "PPK",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Todos los partidos políticos",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1438460882822,
+			"name": "Delete item",
+			"description": "",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"responses": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"folder": "3ad44811-ad7d-cd89-f698-bddbb9f1ffc9"
+		},
+		{
+			"id": "c78eb4c5-c18c-a3e3-b2c9-f5746107de89",
+			"headers": "",
+			"url": "http://localhost:3000/api/item-group/1/item/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1438446168278,
+			"name": "Get items from igem-group",
+			"description": "",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"responses": []
 		},
 		{
 			"id": "ccdad673-cfc5-5fa5-700f-5ac22a305998",
@@ -483,6 +763,34 @@
 			"responses": []
 		},
 		{
+			"id": "f2572f64-f7a4-4d81-d78f-cec4ab854a08",
+			"headers": "",
+			"url": "http://localhost:3000/api/item-group/1/",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"data": [
+				{
+					"key": "name",
+					"value": "Peru",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Get one",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1438384742615,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "009a61f0-b54a-3cbd-f916-1c299425cda5"
+		},
+		{
 			"id": "f3f5e206-05b1-163d-3dc7-fba0efbe3cdd",
 			"headers": "",
 			"url": "http://localhost:3000/api/person/1",
@@ -510,6 +818,25 @@
 			"folder": "940d3a96-592f-3c50-e2e9-46b51e33ff5e",
 			"isFromCollection": true,
 			"collectionRequestId": "f3f5e206-05b1-163d-3dc7-fba0efbe3cdd"
+		},
+		{
+			"id": "f6dc6505-0a10-ceab-923e-037f62cec97a",
+			"headers": "",
+			"url": "http://localhost:3000/api/item-group/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1438446157247,
+			"name": "Get all",
+			"description": "",
+			"collectionId": "1b748974-cf65-e136-c242-c251da3f3687",
+			"responses": []
 		}
 	]
 }
