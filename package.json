@@ -29,7 +29,6 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-nodemon": "^2.0.3",
-    "gulp-shell": "^0.4.2",
-    "newman": "^1.2.17"
+    "gulp-shell": "^0.4.2"
   }
 }
